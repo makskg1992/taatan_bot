@@ -20,7 +20,7 @@ bot.command('course', async (ctx) => {
     await ctx.replyWithHTML('<b>Курсы</b>', Markup.inlineKeyboard(
       [
         [Markup.button.callback('Редакторы', 'btn_1'), Markup.button.callback('Обзоры', 'btn_2'), Markup.button.callback('JS', 'btn_3')],
-        [Markup.button.callback('Фото салон', 'btn_4')]
+        [Markup.button.callback('Фото салон', 'btn_4')],
       ]
     ))
   } catch (e) {
