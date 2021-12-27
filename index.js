@@ -21,7 +21,23 @@ bot.command('course', async (ctx) => {
       [
         [Markup.button.callback('Редакторы', 'btn_1'), Markup.button.callback('Обзоры', 'btn_2'), Markup.button.callback('JS', 'btn_3')],
       [Markup.button.callback('Редакторы', 'btn_4'), Markup.button.callback('Обзоры', 'btn_5'), Markup.button.callback('JS', 'btn_6')],
+         [Markup.button.callback('Редакторы кода', 'btn_category1')],
+      [Markup.button.callback('Инструменты веб-разработчика', 'btn_category2')],
+      [Markup.button.callback('Основы вёрстки HTML и CSS', 'btn_category3')],
+      [Markup.button.callback('Frontend разработка JS и jQuery', 'btn_category4')],
+      [Markup.button.callback('CSS и JS Фреймворки', 'btn_category5')],
+      [Markup.button.callback('Вёрстка сайта с нуля', 'btn_category6')],
+      [Markup.button.callback('Backend разработка PHP и MySQL', 'btn_category7')],
+      [Markup.button.callback('Лайфхаки', 'btn_category8')],
+      [Markup.button.callback('3D и Gamedev', 'btn_category9')]
+        
+        
       ]
+      
+     
+     
+
+      
       
     ))
   } catch (e) {
@@ -58,7 +74,7 @@ addActionBot('btn_2', './img/2.jpg', my_const.text2, true)
 addActionBot('btn_3', false, my_const.text3, false)
 addActionBot('btn_4', false, my_const.text4, true)
 addActionBot('btn_5', false, my_const.text4, true)
-
+addActionBot('btn_category1', false, my_const.text4, true)
 // Запустить бота
 bot.launch()
 
