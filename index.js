@@ -20,9 +20,7 @@ bot.command('course', async (ctx) => {
     await ctx.replyWithHTML('<b>Курсы</b>', Markup.inlineKeyboard(
       [
         [Markup.button.callback('Редакторы', 'btn_1'), Markup.button.callback('Обзоры', 'btn_2'), Markup.button.callback('JS', 'btn_3')],
-        [Markup.button.callback('Фото салон', 'btn_4')],
-        [Markup.button.callback('Фото салон', 'btn_4')],
-        [Markup.button.callback('Фото салон', 'btn_4')],
+      [Markup.button.callback('Редакторы', 'btn_4'), Markup.button.callback('Обзоры', 'btn_5'), Markup.button.callback('JS', 'btn_6')],
       ]
       
     ))
@@ -59,6 +57,7 @@ addActionBot('btn_1', './img/1.jpg', my_const.text1, true)
 addActionBot('btn_2', './img/2.jpg', my_const.text2, true)
 addActionBot('btn_3', false, my_const.text3, false)
 addActionBot('btn_4', false, my_const.text4, true)
+addActionBot('btn_5', false, my_const.text4, true)
 
 // Запустить бота
 bot.launch()
