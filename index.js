@@ -68,7 +68,7 @@ function addActionBot(id_btn, src_img, text, preview) {
   })
 }
 // Обработчик кнопок с помощью функции
-addActionBot('btn_1', './img/1.jpg', my_const.text1, true)
+addActionBot('btn_1', './img/1.jpg', my_const.text1, false)
 addActionBot('btn_2', './img/2.jpg', my_const.text2, true)
 addActionBot('btn_3', false, my_const.text3, false)
 addActionBot('btn_4', false, my_const.text4, true)
