@@ -19,11 +19,10 @@ bot.command('course', async (ctx) => {
   try {
     await ctx.replyWithHTML('<b>Курсы</b>', Markup.inlineKeyboard(
       [
-        [Markup.button.callback('Редакторы', 'btn_1'), Markup.button.callback('Обзоры', 'btn_2'), Markup.button.callback('JS', 'btn_3')],
-      [Markup.button.callback('Редакторы', 'btn_4'), Markup.button.callback('Обзоры', 'btn_5'), Markup.button.callback('JS', 'btn_6')],
-         [Markup.button.callback('Редакторы кода', 'btn_category1')],
-      [Markup.button.callback('Инструменты веб-разработчика', 'btn_category2')],
-      [Markup.button.callback('Основы вёрстки HTML и CSS', 'btn_category3')],
+       
+         [Markup.button.callback('Редакторы кода', 'btn_1')],
+      [Markup.button.callback('Инструменты веб-разработчика', 'btn_2')],
+      [Markup.button.callback('Основы вёрстки HTML и CSS', 'btn_3')],
       [Markup.button.callback('Frontend разработка JS и jQuery', 'btn_category4')],
       [Markup.button.callback('CSS и JS Фреймворки', 'btn_category5')],
       [Markup.button.callback('Вёрстка сайта с нуля', 'btn_category6')],
