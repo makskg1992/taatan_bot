@@ -28,7 +28,7 @@ bot.command('course', async (ctx) => {
       [Markup.button.callback('Вёрстка сайта с нуля', 'btn_category6')],
       [Markup.button.callback('Backend разработка PHP и MySQL', 'btn_category7')],
       [Markup.button.callback('Лайфхаки', 'btn_category8')],
-      [Markup.button.callback('123', 'btn_category9')]
+      [Markup.button.callback('456', 'btn_category9')]
         
         
       ]
